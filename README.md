@@ -115,7 +115,7 @@ sudo apt install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-d
 
 ### Get Pre-compiled Dependencies | 获取 **mirox** 预编译依赖
 ```shell
-git clone https://github.com/MincoX/mirox.git
+git clone https://github.com/Maixos/mirox.git
 
 cd mirox && sudo ./setup.sh
 ```
