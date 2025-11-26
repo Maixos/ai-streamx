@@ -11,7 +11,7 @@ _StreamX 是一个面向 AI 场景的高性能视频流处理框架，提供从 
 ## 相关链接
 + Bilibili：
 
-<div align="center"> <img src="asset/images/demo.gif" width="70%" /> </div>  
+![Demo](asset/images/demo.gif)  
 
 # ⚙️ Core Features | 核心特性
 ## Hardware Acceleration | 硬件加速
@@ -75,8 +75,8 @@ _在开始使用 __**StreamX**__ 之前，请根据所选硬件平台安装对�
 ## Supported Hardware & Required System | 硬件平台与系统要求
 | **Hardware** | **System / SDK** | **Notes** |
 | :---: | :---: | :---: |
-| RK3588-PC | [ROC-RK3588-PC_Ubuntu20.04-Gnome-r30028_v1.1.1b_230914.7z](https://drive.google.com/drive/folders/1Pws2RrNfiCv67wKgDphBGqZ8lx-iidyR) | 需启用 **RKMPP / RGA** |
-| NVIDIA Jetson | JetPack **6.1.1** | 需启用 **NVENC / NVDEC** |
+| RK3588-PC | [ROC-RK3588-PC_Ubuntu20.04-Gnome-r30028_v1.1.1b_230914.7z](https://drive.google.com/drive/folders/1Pws2RrNfiCv67wKgDphBGqZ8lx-iidyR) | 需启用 RKMPP / RGA |
+| NVIDIA Jetson | JetPack **6.1.1** | 需启用 NVENC / NVDEC |
 | x86 + CUDA GPU | CUDA Toolkit / FFmpeg | 开发中 |
 
 
