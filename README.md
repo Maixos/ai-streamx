@@ -58,8 +58,15 @@ Below are performance results measured on real hardware platforms to showcase mu
 
 ## Rockchip RK3588 Performance Test | RK3588 性能测试
 | **Streams** | **Decoders × Encoders** | **RTSP Avg Latency** | **CPU%** | **Pipeline** | **Mode** |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| — | — | — | — | — | — |
+|:-----------:|:-----------------------:|:--------------------:|:--------:| :---: | :---: |
+| 1 × 1080p30 |          1 × 1          |       < 380 ms       |  < 10%   | Zero-copy | Callback |
+|      〃      |          1 × 2          |       < 380 ms       |  < 10%   | Zero-copy | Callback |
+|      〃      |          1 × 4          |        < 380 ms        |  < 15%   | Zero-copy | Callback |
+| 2 × 1080p30 |          2 × 2          |        < 380 ms        |  < 10%   | Zero-copy | Callback |
+|      〃      |          2 × 4          |        < 380 ms        |  < 15%   | Zero-copy | Callback |
+| 4 × 1080p60 |          4 × 4          |        < 400 ms        |  < 30%   | Zero-copy | Callback |
+|      〃      |          4 × 8          |       < 400 ms       |  < 50%   | Zero-copy | Callback |
+| 6 × 1080p60 |          6 × 6          |      < 400 ms       |  < 80%   | Zero-copy | Callback |
 
 
 ## NVIDIA Jetson Orin Nano | Orin NANO 性能测试
