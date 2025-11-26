@@ -9,7 +9,7 @@ _StreamX 是一个面向 AI 场景的高性能视频流处理框架，提供从 
 # 🎬 Demo | 演示
 
 ## 相关链接
-+ Bilibili：
++ Bilibili：https://www.bilibili.com/video/BV1HvUYBEEtz/?vd_source=cf873886c731eb05ae070722ce19f5dc  
 
 ![Demo](asset/images/demo.gif)  
 
